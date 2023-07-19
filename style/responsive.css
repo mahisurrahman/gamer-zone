@@ -1,0 +1,33 @@
+/* Device Breakpoints: 
+1. 320px — 480px for mobile devices
+2. 481px — 768px for iPads & tablets 
+3. 769px — 1024px for small screens like laptop
+4. 1025px — 1200px for large screens like Desktops
+5. 1201px and above for extra large screens like TV. */
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .navbar-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-menus{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .nav-menus a{
+        margin-top: 10px;
+    }
+
+    .nav-socials{
+        width: 200px;
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .nav-socials a{
+        font-size: 0.7rem;
+        margin-top: -2px;
+    }
+}
