@@ -27,12 +27,14 @@ body {
 /* nav menu starts  */
 nav{
     padding: 10px 10%;
+    
 }
 .navbar-container {
     display: flex;
     justify-content: space-between;
     max-width: 1400px;
     margin: 0 auto;
+    max-width: 1400px;
 }
 
 .nav-logo {
